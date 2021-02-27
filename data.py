@@ -5,6 +5,7 @@ print(type(name))
 x = 5
 y = 5.7
 z = 1j
+print(z)
 # Sequence Types:	list, tuple, range
 x = ["A", "B", "C"]
 x = ("A", "B", "C")
