@@ -24,5 +24,9 @@ x = "Living in New York"
 print(len("Length " + x))
 
 # Check String 
-txt = "The best thing in life are freedom"
-print("The " in txt)
+text = "The best thing in life are freedom"
+if "Best" not in text:
+    print("Yes, 'best' is present")
+    
+  
+print("The " in text)
