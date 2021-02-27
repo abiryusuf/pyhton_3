@@ -22,10 +22,3 @@ a = 2.0
 b = int(a)
 print(b)
 
-# using three quotes for multiline 
-u = """Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."""
-
-print(u)
