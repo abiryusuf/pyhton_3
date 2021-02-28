@@ -30,3 +30,4 @@ if "Best" not in text:
     
   
 print("The " in text)
+
