@@ -7,7 +7,15 @@ def myFunction():
 
 myFunction()
 
+# Number of arguments 
 def argFunction(fName, lName):
-    print(fName + " " + lName)
+    return(fName + " " + lName)
 
-argFunction("Abir", "Yusuf")
+print(argFunction("Abir", "Yusuf"))
+
+# Arbitrary arguments: If I dont knoe how many arguments that will pass, I can
+# use (* arg) before parametars. 
+def name(*child):
+    print("The total children is " + child[3])
+
+    name("abir", "yusuf", "mukter", "arafat")
