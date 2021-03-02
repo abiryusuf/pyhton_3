@@ -17,5 +17,12 @@ print(argFunction("Abir", "Yusuf"))
 # use (* arg) before parametars. 
 def name(*child):
     print("The total children is " + child[3])
+ 
+name("abir", "yusuf", "mukter", "arafat")
 
-    name("abir", "yusuf", "mukter", "arafat")
+def calculate(d):
+    q = 3.14
+    z = q *(d**2)
+    print(z)
+
+calculate(5)
