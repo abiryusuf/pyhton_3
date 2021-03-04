@@ -10,6 +10,6 @@ while i < 6:
 i = 0
 while i < 8:
     i += 1
-    if i == 3:
+    if i == 9:
         continue
     print("continue " + str(i))
