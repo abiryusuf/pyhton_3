@@ -13,3 +13,12 @@ while i < 8:
     if i == 9:
         continue
     print("continue " + str(i))
+
+def attempts(n):
+    x = 1
+    while x <= n:
+        print("Attempt: " +str(x))
+        x+=1
+    print("Done")    
+
+attempts(5)

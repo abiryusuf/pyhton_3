@@ -32,7 +32,16 @@ for c in color:
 
 for t in range(1, 3):
     print("The starting value: " + str(t))
+
 #it is possible to specify the increment value by adding a third parameter
 
 for x in range(1,10,2):
     print(x)
+
+# else 
+for x in range(1,8):
+    if x == 3:
+        break
+    print(x)
+else:
+    print("Finished")
