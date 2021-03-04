@@ -31,3 +31,7 @@ if "Best" not in text:
   
 print("The " in text)
 
+i = "abir"
+
+for i in range(5):
+    print(i)
