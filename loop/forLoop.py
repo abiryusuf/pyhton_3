@@ -45,3 +45,22 @@ for x in range(1,8):
     print(x)
 else:
     print("Finished")
+
+# def square(n):
+#     return n*n
+
+def sum_squares(x):
+    sum = 0
+    for n in range(x):
+        sum += n * n
+    return sum
+
+print(sum_squares(10)) # Should be 285
+
+values = [23, 54, 56, 37, 48]
+sum1 = 0
+length = 0
+for value in values:
+    sum1 += value
+    length += 1
+print("Total sum: " + str(sum1) + " - Average: " + str(sum1/length))
