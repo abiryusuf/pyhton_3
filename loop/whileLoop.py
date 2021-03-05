@@ -18,7 +18,31 @@ def attempts(n):
     x = 1
     while x <= n:
         print("Attempt: " +str(x))
-        x+=1
+        x += 1
     print("Done")    
 
 attempts(5)
+
+x = 1
+sum = 0
+
+while x < 10:
+    sum += x
+    x += 1
+    print(sum)
+
+product = 1
+x = 1
+while x < 10:
+    product = product * x
+    x += 1
+    print(product)
+
+def print_range(start, end):
+    n = start
+    while(n<=end):
+        print(n)
+        n += 1
+
+print_range(5, 1)
+
