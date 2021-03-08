@@ -35,3 +35,12 @@ i = "abir"
 
 for i in range(5):
     print(i)
+
+
+def replace_domain(email, old_domain, new_domain):
+    if "@" + old_domain in email:
+        index = email.index("@" + old_domain)
+        new_email = email[:index] + "@" + new_email
+        return new_email
+    return email
+print(replace_domain("abir@yahoo.com", "abir@yahoo.com", "abir@gmail.com"))
