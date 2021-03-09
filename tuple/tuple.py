@@ -14,3 +14,24 @@ char = 0
 for animal in animals:
     char += len(animal)
 print("Total characters: {}, Average Length: {}".format(char, char/len(animal)))
+
+# print the list with index
+
+winners = ["Abir", "Yusuf", "Mim"]
+
+for index, person in enumerate(winners):
+    print("{} - {}".format(index+1, person))
+
+# Try out the enumerate function for yourself in this quick exercise. 
+# Complete the skip_elements function to return every other element from the list,
+# this time using the enumerate function to check if an element is on an even position or an odd position.
+def skip_elements(elements):
+	# code goes here
+	ele = []
+	for index, element in enumerate(elements):
+		if index % 2 == 0:
+			ele.append("{}".format(element))
+	return ele
+
+print(skip_elements(["a", "b", "c", "d", "e", "f", "g"])) # Should be ['a', 'c', 'e', 'g']
+print(skip_elements(['Orange', 'Pineapple', 'Strawberry', 'Kiwi', 'Peach'])) # Should be ['Orange', 'Strawberry', 'Peach']
