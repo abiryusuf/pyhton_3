@@ -15,3 +15,15 @@ secondList = ["r","y"]
 
 addTwoList = listItems.extend(secondList)
 print(addTwoList)
+
+listSecond = ["ab", "bb", "bc", "dd"]
+listSecond.append("dd")
+print(listSecond)
+listSecond.insert(0, "yy")
+print(listSecond)
+
+listSecond.insert(20, "zz")
+print(listSecond)
+
+for g in listSecond:
+    print(g)
