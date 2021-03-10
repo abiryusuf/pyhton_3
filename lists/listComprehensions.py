@@ -21,3 +21,9 @@ for index, person in enumerate(winners):
 
 # print(nu)
 
+# How to find length or word from list
+languages = ["Java", "Perl", "Python", "C++"]
+def length_list(num):
+    lengths = [len(x) for x in num]
+    return lengths
+print(length_list(languages))
