@@ -65,7 +65,12 @@ for value in values:
     length += 1
 print("Total sum: " + str(sum1) + " - Average: " + str(sum1/length))
 
-
+# using format
+animals = ["Lion", "Zebra", "Dolphin", "Monkey"]
+char = 0
+for animal in animals:
+     char += len(animal)
+print("Total characters: {}, Average length: {}".format(char, char/len(animal)))
 def factorial(n):
     result = 1
     for i in range(1, n+1):
