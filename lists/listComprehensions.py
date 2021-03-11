@@ -1,4 +1,4 @@
-# Let us create new lists based on sewuences or ranges
+# Let us create new lists based on sequences or ranges
 multiples = []
 
 for x in range(1, 20):
@@ -27,3 +27,9 @@ def length_list(num):
     lengths = [len(x) for x in num]
     return lengths
 print(length_list(languages))
+
+
+# conditation with list comprehensions
+y = [x for x in range(1, 101) if x % 3 == 0]
+print(y)
+
