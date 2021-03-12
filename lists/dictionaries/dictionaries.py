@@ -44,3 +44,12 @@ cool_beasts = {"octopuses":"tentacles", "dolphins":"fins", "rhinos":"horns"}
 
 for key, value in cool_beasts.items():
     print("{} have {}".format(key, value))
+sen = "I aam Abir"
+def count_letters(text):
+    result = {}
+    for letter in text:
+        if letter not in result:
+            result[letter] = 0
+        result[letter] += 1
+    return result
+print(count_letters(sen))
