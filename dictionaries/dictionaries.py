@@ -16,8 +16,10 @@ y = "Age" in info
 print(y)
 
 toc = {"Introduction":1, "Chapter 1":4, "Chapter 2":11, "Chapter 3":25, "Chapter 4":30}
+# add 
 toc ["Epilogue"] = 39
-toc["Chapter"] = 24
+# change
+toc["Chapter 3"] = 24
 print(toc)
 
 file_counts = {"jpg": 10, "text": 14, "csv": 2, "py": 23}
@@ -44,6 +46,8 @@ cool_beasts = {"octopuses":"tentacles", "dolphins":"fins", "rhinos":"horns"}
 
 for key, value in cool_beasts.items():
     print("{} have {}".format(key, value))
+
+    
 sen = "I aam Abir"
 def count_letters(text):
     result = {}
