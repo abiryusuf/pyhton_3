@@ -15,6 +15,11 @@ for animal in animals:
     char += len(animal)
 print("Total characters: {}, Average Length: {}".format(char, char/len(animal)))
 
+# def animal_function(n):
+# 	for x in n:
+# 		char += len(x)
+# 	return "Total characters: {}, Average length: {}".format(char, char/len(x))
+# print(animal_function(animals))
 # print the list with index
 
 winners = ["Abir", "Yusuf", "Mim"]
