@@ -1,4 +1,4 @@
-# A for loop is used for iterating over a sequence (that is either a list, a tuple)
+# A for loop is used for iterating over a sequence of values (that is either a list, a tuple)
 
 # With the for loop we can execute a set of statements.
 
