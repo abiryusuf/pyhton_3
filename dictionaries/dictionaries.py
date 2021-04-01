@@ -5,6 +5,7 @@ info = {
     "Age": 32,
     "Adress": "NY"
 }
+
 print(info)
 
 # Index
