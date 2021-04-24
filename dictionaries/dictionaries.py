@@ -58,3 +58,13 @@ def count_letters(text):
         result[letter] += 1
     return result
 print(count_letters(sen))
+
+def count_word(n):
+    res = {}
+    for x in n:
+        if x in res:
+            res[x] += 1
+        else:
+            res[x] = 1
+    return res
+print(count_word(sen))
