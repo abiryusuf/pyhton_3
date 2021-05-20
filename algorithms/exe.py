@@ -8,7 +8,7 @@ def totalSum(n):
         avg += 1
     return sum
 print("Total {}".format(totalSum(number)))
-print("Total {}".format(totalSum(number/avg)))
+
 
 
 # Total with dictionary
@@ -60,4 +60,14 @@ def factorial(n):
     return sum
 
 print("Factorial {}".format(factorial(5)))
+
+def maxNumber(num):
+    max = 0
+    for i in num:
+        current = num[i]
+        if current > max:
+            max = current
+    return max
+x = maxNumber(number)
+print("Max number " + str(x))
 
