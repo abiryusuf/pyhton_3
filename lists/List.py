@@ -22,3 +22,6 @@ for a in thisList:
 listOne = ["abc", 34, True, 40, "male"]
 print(listOne)
 print(type(listOne))
+
+thisList1 = list(("apple", "banana", "cherry"))
+print(thisList1)
